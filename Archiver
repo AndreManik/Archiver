@@ -21,6 +21,8 @@ public class Archiver {
             fullPath = reader.readLine();
             zipFileManager.createZip(Paths.get(fullPath));
             
+             new ExitCommand().execute();
+             
         } catch (Exception NAN){}
         
         
