@@ -1,0 +1,6 @@
+/**
+ * Created by Andre on 12.06.2017.
+ */
+public enum Operation {
+    CREATE, ADD, REMOVE, EXTRACT, CONTENT, EXIT
+}
